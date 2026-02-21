@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuvia | Scale Smarter. Build Better.</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #0F172A; color: #F8FAFC; }
+        .gradient-text { background: linear-gradient(90deg, #3B82F6, #10B981); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .glass-card { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+    </style>
+</head>
+<body class="selection:bg-blue-500/30">
+
+    <nav class="fixed w-full z-50 px-6 py-4 flex justify-between items-center glass-card">
+        <div class="text-2xl font-bold tracking-tighter">TUVIA<span class="text-blue-500">.</span></div>
+        <div class="hidden md:flex space-x-8 text-sm font-medium">
+            <a href="#expertise" class="hover:text-blue-400 transition">Expertise</a>
+            <a href="#tech" class="hover:text-emerald-400 transition">Tech Stack</a>
+            <a href="#contact" class="px-4 py-2 bg-blue-600 rounded-lg hover:bg-blue-700 transition">Get Started</a>
+        </div>
+    </nav>
+
+    <section class="min-h-screen flex flex-col justify-center items-center text-center px-6 pt-20">
+        <div class="inline-block px-3 py-1 mb-6 text-xs font-semibold tracking-widest uppercase bg-blue-500/10 text-blue-400 border border-blue-500/20 rounded-full">
+            Marketing Strategist × Tech Architect
+        </div>
+        <h1 class="text-5xl md:text-8xl font-extrabold mb-6 tracking-tight">
+            Scale <span class="gradient-text">Smarter.</span><br>Build Better.
+        </h1>
+        <p class="max-w-2xl text-lg text-slate-400 mb-10">
+            Tuvia bridges the gap between high-performance affiliate marketing and custom-built technical solutions. I design the strategy; I build the tools.
+        </p>
+        <div class="flex flex-col md:flex-row gap-4">
+            <a href="#contact" class="px-8 py-4 bg-blue-600 font-bold rounded-xl hover:shadow-[0_0_20px_rgba(59,130,246,0.5)] transition">Request Strategy Audit</a>
+            <a href="#expertise" class="px-8 py-4 bg-slate-800 font-bold rounded-xl hover:bg-slate-700 transition border border-slate-700">Explore Expertise</a>
+        </div>
+    </section>
+
+    <section id="expertise" class="py-24 px-6 max-w-7xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="glass-card p-10 rounded-3xl group hover:border-emerald-500/50 transition duration-500">
+                <i data-lucide="trending-up" class="w-12 h-12 text-emerald-400 mb-6"></i>
+                <h3 class="text-3xl font-bold mb-4">Affiliate Strategist</h3>
+                <p class="text-slate-400 leading-relaxed">Focusing on ROI, conversion optimization, and sustainable traffic growth. I don't just find offers; I build scalable conversion ecosystems.</p>
+                <ul class="mt-6 space-y-2 text-sm text-emerald-400/80">
+                    <li>• Funnel Architecture</li>
+                    <li>• ROI Maximization</li>
+                    <li>• High-Ticket Positioning</li>
+                </ul>
+            </div>
+            <div class="glass-card p-10 rounded-3xl group hover:border-blue-500/50 transition duration-500">
+                <i data-lucide="code-2" class="w-12 h-12 text-blue-400 mb-6"></i>
+                <h3 class="text-3xl font-bold mb-4">Technical Architect</h3>
+                <p class="text-slate-400 leading-relaxed">Solving bottlenecks with automation, custom scripts, and full-stack solutions. If a tool doesn't exist to solve your problem, I build it.</p>
+                <ul class="mt-6 space-y-2 text-sm text-blue-400/80">
+                    <li>• Custom Automation</li>
+                    <li>• API Integrations</li>
+                    <li>• Problem-Specific Software</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 border-y border-slate-800 bg-slate-900/50">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            <div><p class="text-3xl font-bold">250%+</p><p class="text-xs uppercase text-slate-500 mt-1">Avg ROI</p></div>
+            <div><p class="text-3xl font-bold">500k+</p><p class="text-xs uppercase text-slate-500 mt-1">Lines of Code</p></div>
+            <div><p class="text-3xl font-bold">99.9%</p><p class="text-xs uppercase text-slate-500 mt-1">Uptime</p></div>
+            <div><p class="text-3xl font-bold">40+</p><p class="text-xs uppercase text-slate-500 mt-1">Solutions Built</p></div>
+        </div>
+    </section>
+
+    <footer id="contact" class="py-24 px-6 text-center">
+        <h2 class="text-4xl font-bold mb-6">Ready to Optimize?</h2>
+        <p class="text-slate-400 mb-10">Available for high-level consulting and custom technical builds.</p>
+        <a href="mailto:hello@tuvia.com" class="text-xl font-semibold border-b-2 border-blue-500 pb-2 hover:text-blue-400 transition">hello@tuvia.com</a>
+        <div class="mt-20 text-slate-600 text-sm italic">
+            &copy; 2025 TUVIA. Engineered for Growth.
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
